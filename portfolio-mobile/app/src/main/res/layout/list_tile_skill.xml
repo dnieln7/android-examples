@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="10dp"
+    app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.PortfolioMobile.Bend.20">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/type_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:contentDescription="@null"
+            android:importantForAccessibility="2"
+            android:src="@drawable/ic_skills"
+            app:tint="?colorPrimary" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            tools:text="@tools:sample/lorem" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

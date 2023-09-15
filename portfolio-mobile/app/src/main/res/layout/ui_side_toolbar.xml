@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    app:cardBackgroundColor="?attr/colorSecondary"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/home"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="@string/home"
+            android:textColor="?attr/colorOnSecondary"
+            app:backgroundTint="?attr/colorSecondary"
+            app:icon="@drawable/ic_home"
+            app:iconTint="?attr/colorControlNormal" />
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/skills"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="@string/skills"
+            android:textColor="?attr/colorOnSecondary"
+            app:backgroundTint="?attr/colorSecondary"
+            app:icon="@drawable/ic_skills"
+            app:iconTint="?attr/colorControlNormal" />
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/highlights"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="@string/work"
+            android:textColor="?attr/colorOnSecondary"
+            app:backgroundTint="?attr/colorSecondary"
+            app:icon="@drawable/ic_work"
+            app:iconTint="?attr/colorControlNormal" />
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/projects"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/projects"
+            android:textColor="?attr/colorOnSecondary"
+            app:backgroundTint="?attr/colorSecondary"
+            app:icon="@drawable/ic_projects"
+            app:iconTint="?attr/colorControlNormal" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

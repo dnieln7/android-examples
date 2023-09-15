@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.PortfolioMobile.TextView.Inverted" parent="Widget.MaterialComponents.TextView">
+        <item name="android:background">?attr/colorOnBackground</item>
+        <item name="android:textColor">?attr/background</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Headline6</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingStart">10dp</item>
+    </style>
+
+    <style name="Widget.PortfolioMobile.CardPrimary" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Widget.PortfolioMobile.TextViewOnPrimary" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="Widget.PortfolioMobile.ImageViewOnPrimary" parent="">
+        <item name="tint">?attr/colorOnPrimary</item>
+    </style>
+
+    <!--CollapsingToolbar-->
+
+    <style name="TextAppearance.PortfolioMobile.ToolBar" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="TextAppearance.PortfolioMobile.ToolBar.Expanded" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Theme.PortfolioMobile.CollapsingToolbar">
+        <item name="collapsedTitleTextAppearance">@style/TextAppearance.PortfolioMobile.ToolBar
+        </item>
+        <item name="expandedTitleTextAppearance">
+            @style/TextAppearance.PortfolioMobile.ToolBar.Expanded
+        </item>
+        <item name="contentScrim">?attr/colorPrimary</item>
+    </style>
+
+    <!--CollapsingToolbar-->
+</resources>

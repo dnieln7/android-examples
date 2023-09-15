@@ -1,0 +1,148 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "77d00558959203bdb3bffcd052985a65",
+    "entities": [
+      {
+        "tableName": "tb_projects",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER NOT NULL, `images` TEXT NOT NULL, `importance` REAL NOT NULL, `name` TEXT NOT NULL, `programGit` TEXT NOT NULL, `programUrl` TEXT NOT NULL, `summary` TEXT NOT NULL, `tags` TEXT NOT NULL, `technologies` TEXT NOT NULL, `thumbnail` TEXT NOT NULL, `updatedAt` TEXT NOT NULL, `webGit` TEXT NOT NULL, `webUrl` TEXT NOT NULL, `year` INTEGER NOT NULL, `androidGit` TEXT NOT NULL, `androidUrl` TEXT NOT NULL, `createdAt` TEXT NOT NULL, `description` TEXT NOT NULL, `duration` TEXT NOT NULL, `features` TEXT NOT NULL, PRIMARY KEY(`id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "images",
+            "columnName": "images",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "importance",
+            "columnName": "importance",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "programGit",
+            "columnName": "programGit",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "programUrl",
+            "columnName": "programUrl",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "summary",
+            "columnName": "summary",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "tags",
+            "columnName": "tags",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "technologies",
+            "columnName": "technologies",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "thumbnail",
+            "columnName": "thumbnail",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "updatedAt",
+            "columnName": "updatedAt",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "webGit",
+            "columnName": "webGit",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "webUrl",
+            "columnName": "webUrl",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "year",
+            "columnName": "year",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "androidGit",
+            "columnName": "androidGit",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "androidUrl",
+            "columnName": "androidUrl",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "createdAt",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "description",
+            "columnName": "description",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "duration",
+            "columnName": "duration",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "features",
+            "columnName": "features",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '77d00558959203bdb3bffcd052985a65')"
+    ]
+  }
+}

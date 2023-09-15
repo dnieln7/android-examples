@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Portfolio Mobile</string>
+    <string name="error">There was an error, try again</string>
+
+    <!-- About Me-->
+    <string name="about_me">About Me</string>
+    <string name="skills">Skills</string>
+    <string name="banner">banner</string>
+    <string name="other">Other</string>
+    <string name="my_name">Daniel Antonio Nolasco Alvarado</string>
+    <string name="my_occupation">Android developer</string>
+    <string name="gmail">Gmail</string>
+    <string name="send_email">Send an email</string>
+    <string name="github">Github</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="greet">Hi, My name is Daniel!</string>
+    <string name="resume">I am a software engineer with knowledge in Backend, Frontend and Android development, i like using technologies to make people life easier at work or in a day to day basics.</string>
+    <string name="likes_goals">I like android development and working on teams because that allows me to learn from my teammates and live new experiences. I am looking for challenges that help me to be a better Android developer.</string>
+    <!-- About Me-->
+
+    <!-- Projects -->
+    <string name="projects">Projects</string>
+    <string name="project_image">Project image</string>
+    <string name="access_links">Access links</string>
+    <string name="android_app">Android app</string>
+    <string name="android_app_source_code">Android app source code</string>
+    <string name="web_app">Web app</string>
+    <string name="web_app_source_code">Web app source code</string>
+    <string name="app">App</string>
+    <string name="app_source_code">App source code</string>
+    <string name="technologies">Technologies</string>
+    <string name="features">Features</string>
+    <string name="duration">Duration</string>
+    <string name="description">Description</string>
+    <string name="android">Android</string>
+    <string name="back_front_end">Back / Front End</string>
+    <string name="home">Home</string>
+    <string name="highlights">Highlights</string>
+    <string name="download">Download</string>
+    <string name="retry">Retry</string>
+    <string name="using_locale">Error syncing with the server, using locale data</string>
+    <string name="navigation_tip_1">Swipe left to navigate</string>
+    <string name="got_it">Got it</string>
+    <string name="navigation_tip_2">Or use the bottom bar</string>
+    <string name="ownership">Ownership</string>
+    <string name="ownership_description">%1$s was created by Me (Daniel Nolasco). %2$s was developed and maintained by Me from %3$d until now.</string>
+    <string name="work">Work</string>
+    <string name="education">Education</string>
+    <!-- Projects -->
+</resources>
