@@ -1,11 +1,6 @@
 <resources>
     <string name="app_name">Bubble</string>
 
-    <string name="your_color_is">Your color is: %1$s</string>
-    <string name="open_from_qr">Open from QR</string>
-    <string name="opened_from_qr">This was opened from a QR code</string>
-    <string name="to_open_from_qr">To open this from a QR code create one from a link like bellow</string>
-    <string name="qr_example">https://www.qrbydnieln7.com/#COLOR_IN_HEXADECIMAL</string>
     <string name="notification_action_triggered">Hello from notification</string>
     <string name="send_action">Send action</string>
     <string name="test_notification_action">Test notification with action</string>
@@ -31,7 +26,6 @@
     <string name="mark_location">Mark location</string>
     <string name="latitude">Latitude</string>
     <string name="longitude">Longitude</string>
-    <string name="maps_api_key" translatable="false">AIzaSyCZHPM-U1WP8xf3gWXyDo2H81jwQt1Dz4M</string>
     <string name="permissions_denied">You need to grant the required permissions to continue</string>
     <string name="permissions_are_required">Permissions are required!</string>
     <string name="services_denied">You need to enable the required services to continue</string>
@@ -90,7 +84,6 @@
     <string name="bonded_failed">Pairing request failed. Please, try again</string>
     <string name="advanced_animations">Advanced animations</string>
     <string name="view_specific_animations">View specific animations</string>
-    <string name="alerady_discoverable">This device is already discoverable</string>
     <string name="notify">Notify</string>
     <string name="thanks">Thanks!</string>
     <string name="bubble">Bubble</string>
