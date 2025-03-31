@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Notification</string>
+    <string name="notify">Notify</string>
+    <string name="exit">Exit</string>
+    <string name="thanks">Thanks!</string>
+    <string name="permissions_are_required">Permissions are required!</string>
+    <string name="get_these_for">Get these for:</string>
+</resources>
